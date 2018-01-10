@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <package format="2">
   <name>loki_bringup</name>
-  <version>0.0.1</version>
+  <version>0.0.2</version>
   <description>The loki_bringup package</description>
 
   <maintainer email="send2arohan@gmail.com">Rohan Agrawal</maintainer>
@@ -9,7 +9,7 @@
 
   <buildtool_depend>catkin</buildtool_depend>
   <exec_depend>loki_description</exec_depend>
-  <exec_depend>bus_server</exec_depend>
+  <exec_depend>loki_base_node</exec_depend>
 
   <!-- The export tag contains other, unspecified, tags -->
   <export>
