@@ -1,0 +1,12 @@
+Source: ros-kinetic-loki-teleop
+Section: misc
+Priority: extra
+Maintainer: Rohan Agrawal <send2arohan@gmail.com>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-loki-teleop
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-joy, ros-kinetic-teleop-twist-joy, ros-kinetic-teleop-twist-keyboard
+Description: The loki_teleop package

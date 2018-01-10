@@ -1,0 +1,19 @@
+ros-kinetic-loki-teleop (0.0.2-0xenial) xenial; urgency=high
+
+  * Merge branch 'fix-#1 <https://github.com/UbiquityRobotics/loki_robot/issues/1>' of github.com:UbiquityRobotics/loki_robot
+  * Merge pull request #3 <https://github.com/UbiquityRobotics/loki_robot/issues/3> from UbiquityRobotics/fix-#1 <https://github.com/UbiquityRobotics/fix-/issues/1>
+    Mirror magni_robot in loki_robot
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Sat, 30 Dec 2017 08:00:00 -0000
+
+ros-kinetic-loki-teleop (0.0.1-0xenial) xenial; urgency=high
+
+  * add loki_nav, fix cmake errors
+  * depend on keyboard teleop to make sure it gets installed
+  * add teleop config to loki_teleop
+  * Contributors: Rohan Agrawal
+
+ -- Rohan Agrawal <send2arohan@gmail.com>  Wed, 27 Dec 2017 08:00:00 -0000
+
+
