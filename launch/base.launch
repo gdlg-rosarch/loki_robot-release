@@ -2,7 +2,7 @@
 
   <include file="$(find loki_description)/launch/description.launch"/>
 
-  <node name="bus_server" pkg="bus_server" type="bus_server.py" output="screen">
+  <node name="bus_server" pkg="loki_base_node" type="bus_server.py" output="screen">
     <rosparam command="load" file="$(find loki_bringup)/param/loki.yaml" />
   </node>
 
